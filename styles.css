@@ -119,7 +119,7 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: white;
+  color: black;
 }
 nav a:hover {
   color: white;
