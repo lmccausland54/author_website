@@ -1,0 +1,186 @@
+body {
+    background-color: #213332 ;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D9D1AA;
+    
+}
+#logo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    
+    min-width: 120px;
+
+   
+    
+}
+
+nav a:hover {
+    background-color: #94A092;
+    color: #FEFAEE;
+    text-decoration: underline;
+}
+
+
+#homepage-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 75px;
+    margin-bottom: -30px;
+}
+
+
+#title-hero {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    z-index: 1;
+    margin-top: 100px;
+    font-size: 7em;
+    font-family: "Brush Script MT", "Times New Roman";
+    text-shadow: 1px 1px 7px black; 
+    
+    color: #D9D1AA ;
+    background-color: #213332;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#home-hero-img {
+    grid-column: 1/5;
+    grid-row: 1/4;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    
+}
+
+#homepage-main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 200px 1fr ;
+    margin: 100px;
+    
+}
+
+#homepage-text-one, #homepage-text-two {
+    font-size: 2em;
+    text-align: center;
+    color:#FEFAEE ;
+}
+
+#homepage-text-two{
+    margin-top: 400px;
+}
+
+
+#selfie, #cyberpunk_city_homepage-img, #los_homepage_img, #home-hero-img {
+    box-shadow: 5px 5px 10px black;
+}
+
+#selfie {
+    grid-column:1/2 ;
+    grid-row: 1-2;
+    width: 725px;
+}
+
+#homepage-text-one {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#homepage-text-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#homepage-text-three {
+    grid-column: 1/3;
+    grid-row:2/3 ;
+    text-align: center;
+    background-color: #D9D1AA;
+    font-size: 2em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+#cyberpunk_city_homepage-img, #img_title_foab {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 100px;
+}
+
+
+
+#img_title_los, #los_homepage_img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    
+}
+
+#cyberpunk_city_homepage-img, #los_homepage_img{
+    z-index: -1;
+    width: 600px;
+}
+
+#img_title_foab, #img_title_los {
+    color: #FEFAEE ;
+    font-size: 2em;
+    text-shadow: 1px 1px 7px black;
+}
+
+#img_title_foab {
+    margin-left: 220px;
+}
+
+
+#los_homepage_img {
+    padding-right: -50px;
+    margin-right: -100px;
+    margin-left: 100px;
+}
+#img_title_los {
+    margin-left: 250px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D9D1AA;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    
+    min-width: 120px;
+}
+
+footer p:hover {
+    background-color: #94A092;
+    color: #FEFAEE;
+    text-decoration: underline;
+}
