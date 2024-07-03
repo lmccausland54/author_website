@@ -76,7 +76,7 @@ nav a:hover {
 #homepage-main-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 200px 1fr ;
+    grid-template-rows: 1fr 200px 1fr;
     margin: 100px;
     
 }
@@ -123,34 +123,62 @@ nav a:hover {
     
 }
 
-#cyberpunk_city_homepage-img, #img_title_foab:link {
+
+#FOAB {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#LOS {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#cyberpunk_city_homepage-img, #los_homepage_img {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+#img_title_foab, #img_title_los {
+    color: #FEFAEE ;
+    font-size: 2em;
+    text-shadow: 1px 1px 7px black;
+    text-align: center;
+    
+    
+}
+
+
+/* #cyberpunk_city_homepage-img, #img_title_foab {
     grid-column: 1/2;
     grid-row: 3/4;
     margin-left: 100px;
 }
 
 
-
-#img_title_los:link, #los_homepage_img {
+#img_title_los, #los_homepage_img{
     grid-column: 2/3;
     grid-row: 3/4;
+    margin-left: -100px;
     
 }
+
+
 
 #cyberpunk_city_homepage-img, #los_homepage_img{
     z-index: -1;
     width: 600px;
 }
 
-#img_title_foab:link, #img_title_los:link {
-    color: #FEFAEE ;
-    font-size: 2em;
-    text-shadow: 1px 1px 7px black;
-}
 
-#img_title_foab:link {
+
+#img_title_foab {
     margin-left: 220px;
 }
+
+
+
 
 
 #los_homepage_img {
@@ -158,10 +186,12 @@ nav a:hover {
     margin-right: -100px;
     margin-left: 100px;
 }
-#img_title_los:link {
+#img_title_los {
     margin-left: 250px;
     
-}
+
+} */
+
 
 footer {
     display: flex;
