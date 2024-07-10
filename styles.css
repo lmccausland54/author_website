@@ -23,7 +23,6 @@ nav a {
     color: black;
     text-decoration: none;
     font-size: 2em;
-    
     min-width: 120px;
 
    
@@ -246,6 +245,10 @@ footer p:hover {
     grid-row: 2/3;
     width: 80%;
     margin:auto;
+}
+
+.slideshow-imgs, #octavia-hero-img, #los-hero-img-male{
+    box-shadow: 5px 5px 10px black;
 }
 
 * {box-sizing:border-box}
